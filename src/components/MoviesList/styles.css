@@ -1,0 +1,19 @@
+.movies-grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 30px;
+  grid-row-gap: 50px;
+}
+
+.movie {
+  text-align: center;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
